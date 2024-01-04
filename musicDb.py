@@ -2,8 +2,8 @@ import os
 import pathlib
 from openpyxl import Workbook
 
-acceptedFolders = {'flac', 'low quality', 'other'}
-acceptedFiles = {".mp3" , ".opus", ".flac", ".m4a"}
+acceptedFolders = ['flac', 'low quality', 'other']
+acceptedFiles = [".mp3" , ".opus", ".flac", ".m4a"]
 
 directory = pathlib.Path(__file__).parent.resolve()
 
